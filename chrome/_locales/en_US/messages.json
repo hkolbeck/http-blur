@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Insecure Blur",
+    "description": ""
+  },
+  "extDescription": {
+    "message": "Adds a button to some social media sites allowing easy extraction of text from images",
+    "description": ""
+  },
+  "buttonText": {
+    "message": "Extract Text to Clipboard",
+    "description": "Text on extract text button"
+  }
+}

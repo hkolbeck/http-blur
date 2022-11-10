@@ -1,0 +1,35 @@
+{
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDescription__",
+  "version": "1.0",
+  "manifest_version": 3,
+  "default_locale": "en_US",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["content_scripts/blur.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": [],
+  "web_accessible_resources": [
+    {
+      "resources": [ "images/*"],
+      "matches": [ "http://*/*", "https://*/*" ]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "images/SocialTextExtractor16.png",
+      "32": "images/SocialTextExtractor32.png",
+      "48": "images/SocialTextExtractor48.png",
+      "128": "images/SocialTextExtractor128.png"
+    }
+  },
+  "icons": {
+    "16": "images/SocialTextExtractor16.png",
+    "32": "images/SocialTextExtractor32.png",
+    "48": "images/SocialTextExtractor48.png",
+    "128": "images/SocialTextExtractor128.png"
+  }
+}
