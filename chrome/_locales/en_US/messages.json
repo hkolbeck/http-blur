@@ -4,11 +4,7 @@
     "description": ""
   },
   "extDescription": {
-    "message": "Adds a button to some social media sites allowing easy extraction of text from images",
+    "message": "Blurs sites that don't use HTTPS",
     "description": ""
-  },
-  "buttonText": {
-    "message": "Extract Text to Clipboard",
-    "description": "Text on extract text button"
   }
 }

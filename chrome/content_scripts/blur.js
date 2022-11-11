@@ -1,5 +1,3 @@
-
-
 const blurDiv = document.createElement("div");
 blurDiv.style.position = "absolute"
 blurDiv.style.left = "0"
