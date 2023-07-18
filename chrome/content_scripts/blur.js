@@ -10,7 +10,6 @@ blurDiv.style.display = "flex"
 blurDiv.style.alignItems = "center"
 blurDiv.style.justifyContent = "center"
 
-blurDiv.onclick = () => blurDiv.style.display = "none"
 
 const emojiDiv = document.createElement("div");
 emojiDiv.style.fontSize = "10rem"
@@ -18,4 +17,5 @@ emojiDiv.style.textAlign = "center"
 emojiDiv.innerText = "😒"
 
 blurDiv.appendChild(emojiDiv)
-document.body.appendChild(blurDiv)
+document.body.prepend(blurDiv)
+blurDiv.onclick = () => document.body.removeChild(blurDiv)
