@@ -1,5 +1,5 @@
 const blurDiv = document.createElement("div");
-blurDiv.style.position = "absolute"
+blurDiv.style.position = "fixed"
 blurDiv.style.left = "0"
 blurDiv.style.top = "0"
 blurDiv.style.width = "100vw"
